@@ -32,8 +32,7 @@ const ConversionRateDisplay: React.FC<ConversionRateDisplayProps> = ({
               1 {defaultCurrencyData.currency}{' '}
             </Text>
             <Text style={styles.conversionRate}>
-              = {selectedCurrency.currency}{' '}
-              {selectedCurrency.exchange_rate}
+              = {selectedCurrency.currency} {selectedCurrency.exchange_rate}
             </Text>
           </View>
           <TouchableOpacity onPress={toggleFees} style={styles.feesArea}>

@@ -14,9 +14,12 @@ interface RecipientCurrencySelectorProps {
   onCurrencySelect: (_currency: CurrencyData) => void
 }
 
-const RecipientCurrencySelector: React.FC<
-  RecipientCurrencySelectorProps
-> = ({ currencyData, amount, setAmount, onCurrencySelect }) => {
+const RecipientCurrencySelector: React.FC<RecipientCurrencySelectorProps> = ({
+  currencyData,
+  amount,
+  setAmount,
+  onCurrencySelect,
+}) => {
   const [visible, setVisible] = useState<boolean>(false)
   const [selectedCurrency, setSelectedCurrency] = useState<CurrencyData>(
     currencyData[0],

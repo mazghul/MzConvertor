@@ -7,7 +7,10 @@ import { defaultCurrencyData } from '../../const'
 describe('ConversionRateDisplay component', () => {
   it('should toggle fees when the "Fees" button is pressed', () => {
     const { getByText } = render(
-      <ConversionRateDisplay amount="1,000,000" selectedCurrency={currencyData[0]} />,
+      <ConversionRateDisplay
+        amount="1,000,000"
+        selectedCurrency={currencyData[0]}
+      />,
     )
 
     const feesButton = getByText('Fees')
@@ -18,7 +21,10 @@ describe('ConversionRateDisplay component', () => {
 
   it('should should correct exchange rate', () => {
     const { getByText } = render(
-      <ConversionRateDisplay amount="1,000,000" selectedCurrency={currencyData[0]} />,
+      <ConversionRateDisplay
+        amount="1,000,000"
+        selectedCurrency={currencyData[0]}
+      />,
     )
 
     expect(getByText(`1 ${defaultCurrencyData.currency}`)).toBeTruthy()

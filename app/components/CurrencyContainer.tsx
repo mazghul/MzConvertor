@@ -45,6 +45,6 @@ const styles = StyleSheet.create({
   },
   currencyRow: {
     flexDirection: 'row',
-    marginTop: 5
-  }
+    marginTop: 5,
+  },
 })

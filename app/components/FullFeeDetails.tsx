@@ -16,7 +16,9 @@ const FullFeeDetails: React.FC<FeeDetailsProps> = ({
   selectedCurrency,
 }) => {
   const calculateAmount = () => {
-    return (parseFloat(amount.replaceAll(',', '')) - selectedCurrency.fees).toFixed(2)
+    return (
+      parseFloat(amount.replaceAll(',', '')) - selectedCurrency.fees
+    ).toFixed(2)
   }
 
   const sendingAmount = useMemo(() => {

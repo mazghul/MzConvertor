@@ -24,7 +24,9 @@ describe('FullFeeDetails component', () => {
     ).toBeTruthy()
     expect(
       getByText(
-        `${defaultCurrencyData.currency} ${formatNumberCurrency(100000 - currencyData[0].fees)}`,
+        `${defaultCurrencyData.currency} ${formatNumberCurrency(
+          100000 - currencyData[0].fees,
+        )}`,
       ),
     ).toBeTruthy()
     expect(
