@@ -2,7 +2,7 @@
 
 MZConvertor is a mobile application designed for easy and efficient international currency conversion, tailored to enhance the experience of users needing quick access to currency exchange rates and calculations on the go.
 
-![MZConvertor Interface](./assets/screenshot.jpg)
+![MZConvertor Interface](./assets/demo.gif)
 
 ## Features
 
