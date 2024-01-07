@@ -1,4 +1,10 @@
 export const White = '#FFFFFF'
 export const Black = '#000000'
-export const PrimaryColor = '#7819CB'
+export const PrimaryColor = '#6753FF'
 export const Disabled = '#C1C7CE'
+
+export const ConversionBG = '#edf2f5'
+export const ConversionDOT = '#8BA7C1'
+export const FeeDetailsBorderColor = '#E1E4E8'
+export const TransferButtonColor = '#2F80ED'
+export const AdditionalNoteColor = '#868686'

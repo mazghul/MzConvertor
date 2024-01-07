@@ -9,7 +9,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['react', '@typescript-eslint'],
   rules: {
-    'no-unused-vars': 'error',
+    'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     'no-extra-bind': 'error',
     'no-implicit-globals': 'error',
     'prefer-promise-reject-errors': 'error',

@@ -1,6 +1,4 @@
-import { CurrencyConversion } from '../models/currencyModel'
-
-export const currencyData: CurrencyConversion[] = [
+[
   {
     "country": "Algeria",
     "currency": "DZD",
@@ -394,16 +392,3 @@ export const currencyData: CurrencyConversion[] = [
     "fees": 1.57
   }
 ]
-
-
-export const convertCurrency = (
-  toCurrency: string,
-): CurrencyConversion | null => {
-  return (
-    currencyData.find((c) => c.currency === toCurrency.toUpperCase()) || null
-  )
-}
-
-export const listCurrency = (): CurrencyConversion[] => {
-  return currencyData
-}

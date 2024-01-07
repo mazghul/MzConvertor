@@ -1,4 +1,4 @@
-export interface CurrencyConversion {
+export interface CurrencyData {
   country: string
   currency: string
   exchange_rate: number

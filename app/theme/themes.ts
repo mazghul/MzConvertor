@@ -1,14 +1,14 @@
-import { DarkTheme } from '@react-navigation/native'
 import { White, Disabled, PrimaryColor } from './colors'
-import { MD3DarkTheme } from 'react-native-paper'
+import { DefaultTheme, MD3LightTheme } from 'react-native-paper'
 
 export const theme = {
-  ...DarkTheme,
-  ...MD3DarkTheme.colors,
+  ...DefaultTheme,
+  ...MD3LightTheme.colors,
   colors: {
-    ...DarkTheme.colors,
+    ...DefaultTheme.colors,
     primary: PrimaryColor,
     secondary: White,
+    roundness: 5,
     backdrop: 'rgba(0,0,0,0.3)',
     elevation: {
       level2: White,
