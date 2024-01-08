@@ -40,6 +40,6 @@ yarn test:coverage
 
 ## Contact
 
-Your Name – Mazhar Syed Asan - mazghul@gmail.com.com
+Mazhar Syed Asan - mazghul@gmail.com.com
 
 Project Link: [https://github.com/mazghul/MzConvertor](https://github.com/mazghul/MzConvertor)
